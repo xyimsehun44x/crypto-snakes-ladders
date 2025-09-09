@@ -1,7 +1,7 @@
 {
   "functions": {
-    "api/discord/exchange-token.ts": {
-      "runtime": "@vercel/node"
+    "api/**/*.ts": {
+      "runtime": "@vercel/node@3.0.0"
     }
   }
 }
